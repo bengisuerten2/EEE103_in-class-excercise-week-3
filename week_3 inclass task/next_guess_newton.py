@@ -1,0 +1,6 @@
+x = float(input("küpkökü bulunacak sayıyı girniniz"))
+guess = float(input("başlangıç tahmininizi giriniz"))
+nextguess = guess - (guess**3 - x)/(3 * guess**2)
+print(x)
+print(guess)
+print(nextguess)
